@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>ico/eye_hidden.png</file>
+        <file>ico/eye_visible.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix1"/>
+</RCC>
