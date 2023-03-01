@@ -34,7 +34,7 @@ def search_qt_api() ->str:
                 except:
                     pass
                 else:
-                    qt_api = ver
+                    qt_api = ver.lower()
                     break
         else:
             qt_api = qtpy.API

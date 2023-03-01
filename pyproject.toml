@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "BuzzQtExtension"
+version = "0.0.1"
+authors = [
+    {name = "buzz", email = "x@y.z"}
+]
+readme = "README.rst"
+requires-python = ">=3.8"
+keywords = ["qt", "promote"]
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+
+dependencies = [
+    #"requests",
+    #"importlib-metadata; python_version<'3.10'",
+    "qtpy"
+]
+
+[project.scripts]
+compile-ui = "tools:compile_ui"
